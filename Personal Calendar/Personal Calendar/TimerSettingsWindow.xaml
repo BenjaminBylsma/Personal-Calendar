@@ -1,0 +1,32 @@
+﻿<Window x:Class="Personal_Calendar.TimerSettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Personal_Calendar"
+        mc:Ignorable="d"
+        Title="TimerSettingsWindow" Height="350" Width="200" Closed="Window_Closed" Activated="Window_Activated">
+    <Grid>
+        <Rectangle Fill="#FF1A94F9" HorizontalAlignment="Left" Height="319" Margin="1,0,0,0" Stroke="#FF1A94F9" VerticalAlignment="Top" Width="191"/>
+        <Label Content="Plain Alarm" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="78" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Label Content="Groovy Alarm" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Width="91" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Label Content="Quiet Alarm" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Width="91" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Label Content="Soft Alarm" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" Width="78" FontWeight="Bold" FontFamily="Comic Sans MS"/>
+        <Label Content="Turbo Alarm" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold" FontFamily="Comic Sans MS"/>
+        <Ellipse Fill="White" HorizontalAlignment="Left" Height="25" Margin="100,12,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
+        <Ellipse Fill="White" HorizontalAlignment="Left" Height="25" Margin="100,220,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
+        <Ellipse Fill="White" HorizontalAlignment="Left" Height="25" Margin="100,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
+        <Ellipse Fill="White" HorizontalAlignment="Left" Height="25" Margin="100,116,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
+        <Ellipse Fill="White" HorizontalAlignment="Left" Height="25" Margin="100,64,0,0" Stroke="Black" VerticalAlignment="Top" Width="25"/>
+        <Image x:Name="plainAlarmImage" HorizontalAlignment="Left" Height="24" Margin="101,13,0,0" VerticalAlignment="Top" Width="23" Source="C:\Users\bbylsma\source\repos\Personal Calendar\playButton.png" MouseLeftButtonUp="plainAlarmImage_MouseLeftButtonUp"/>
+        <Image x:Name="turboAlarmImage" HorizontalAlignment="Left" Height="24" Margin="101,221,0,0" VerticalAlignment="Top" Width="23" Source="C:\Users\bbylsma\source\repos\Personal Calendar\playButton.png" MouseLeftButtonUp="turboAlarmImage_MouseLeftButtonUp"/>
+        <Image x:Name="softAlarmImage" HorizontalAlignment="Left" Height="24" Margin="101,169,0,0" VerticalAlignment="Top" Width="23" Source="C:\Users\bbylsma\source\repos\Personal Calendar\playButton.png" MouseLeftButtonUp="softAlarmImage_MouseLeftButtonUp"/>
+        <Image x:Name="relaxingAlarmImage" HorizontalAlignment="Left" Height="24" Margin="101,117,0,0" VerticalAlignment="Top" Width="23" Source="C:\Users\bbylsma\source\repos\Personal Calendar\playButton.png" MouseLeftButtonUp="relaxingAlarmImage_MouseLeftButtonUp"/>
+        <Image x:Name="groovyAlarmImage" HorizontalAlignment="Left" Height="24" Margin="101,65,0,0" VerticalAlignment="Top" Width="23" Source="C:\Users\bbylsma\source\repos\Personal Calendar\playButton.png" MouseLeftButtonUp="groovyAlarmImage_MouseLeftButtonUp"/>
+        <Label x:Name="plainAlarmLabel" Content="" HorizontalAlignment="Left" Margin="130,12,0,0" VerticalAlignment="Top" Width="52" MouseLeftButtonUp="plainAlarmLabel_MouseLeftButtonUp" FontFamily="Comic Sans MS"/>
+        <Label x:Name="turboAlarmLabel" Content="" HorizontalAlignment="Left" Margin="130,218,0,0" VerticalAlignment="Top" Width="52" MouseLeftButtonUp="turboAlarmLabel_MouseLeftButtonUp" FontFamily="Comic Sans MS"/>
+        <Label x:Name="softAlarmLabel" Content="" HorizontalAlignment="Left" Margin="130,166,0,0" VerticalAlignment="Top" Width="52" MouseLeftButtonUp="softAlarmLabel_MouseLeftButtonUp" FontFamily="Comic Sans MS"/>
+        <Label x:Name="quietAlarmLabel" Content="" HorizontalAlignment="Left" Margin="130,114,0,0" VerticalAlignment="Top" Width="52" MouseLeftButtonUp="quietAlarmLabel_MouseLeftButtonUp" FontFamily="Comic Sans MS"/>
+        <Label x:Name="groovyAlarmLabel" Content="" HorizontalAlignment="Left" Margin="130,62,0,0" VerticalAlignment="Top" Width="52" MouseLeftButtonUp="groovyAlarmLabel_MouseLeftButtonUp" FontFamily="Comic Sans MS"/>
+    </Grid>
+</Window>

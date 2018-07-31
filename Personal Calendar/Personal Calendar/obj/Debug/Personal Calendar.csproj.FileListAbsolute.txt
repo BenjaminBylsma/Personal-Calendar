@@ -1,0 +1,25 @@
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\bin\Debug\Personal Calendar.exe.config
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\bin\Debug\Personal Calendar.exe
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\bin\Debug\Personal Calendar.pdb
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.csprojAssemblyReference.cache
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\MainWindow.g.cs
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\App.g.cs
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar_MarkupCompile.cache
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar_MarkupCompile.lref
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\MainWindow.baml
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.g.resources
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal_Calendar.Properties.Resources.resources
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.csproj.GenerateResource.cache
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.csproj.CoreCompileInputs.cache
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.exe
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.pdb
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\DateAndEventsPage.g.cs
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\DateAndEventsPage.baml
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\TimerPage.g.cs
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\ClockPage.g.cs
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\StopwatchPage.g.cs
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\TimerPage.baml
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\ClockPage.baml
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\StopwatchPage.baml
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\TimerSettingsWindow.g.cs
+C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\TimerSettingsWindow.baml
