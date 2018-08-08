@@ -56,12 +56,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AudioManager.cs" />
     <Compile Include="ClockPage.xaml.cs">
       <DependentUpon>ClockPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Events.cs" />
+    <Compile Include="EventSetterWindow.xaml.cs">
+      <DependentUpon>EventSetterWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="TimerSettingsWindow.xaml.cs">
       <DependentUpon>TimerSettingsWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TimeSplits.cs" />
+    <Page Include="EventSetterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -20,7 +20,7 @@ namespace Personal_Calendar
     /// </summary>
     public partial class TimerSettingsWindow : Window
     {
-        public BitmapImage play = new BitmapImage(new Uri(@"C:\Users\bbylsma\source\repos\Personal Calendar\playButton.png"));
+        public BitmapImage play = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\playButton.png"));
         public SoundPlayer player = new SoundPlayer(Globals.alarmAudio);
         public TimerSettingsWindow()
         {
@@ -29,31 +29,31 @@ namespace Personal_Calendar
 
         private void plainAlarmImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            SoundPlayer player = new SoundPlayer(@"C:\Users\bbylsma\source\repos\Personal Calendar\.wav");
+            SoundPlayer player = new SoundPlayer(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\plainAlarm.wav");
             playAudioSettings(play, plainAlarmImage, player);            
         }
         
         private void groovyAlarmImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            SoundPlayer player = new SoundPlayer(@"C:\Users\bbylsma\source\repos\Personal Calendar\GroovyAlarm.wav");
+            SoundPlayer player = new SoundPlayer(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\GroovyAlarm.wav");
             playAudioSettings(play, groovyAlarmImage, player);
         }
 
         private void relaxingAlarmImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            SoundPlayer player = new SoundPlayer(@"C:\Users\bbylsma\source\repos\Personal Calendar\RelaxingAlarm.wav");
+            SoundPlayer player = new SoundPlayer(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\RelaxingAlarm.wav");
             playAudioSettings(play, relaxingAlarmImage, player);
         }
 
         private void softAlarmImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            SoundPlayer player = new SoundPlayer(@"C:\Users\bbylsma\source\repos\Personal Calendar\SoftAlarm.wav");
+            SoundPlayer player = new SoundPlayer(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\SoftAlarm.wav");
             playAudioSettings(play, softAlarmImage, player);
         }
 
         private void turboAlarmImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            SoundPlayer player = new SoundPlayer(@"C:\Users\bbylsma\source\repos\Personal Calendar\TurboAlarm.wav");
+            SoundPlayer player = new SoundPlayer(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\TurboAlarm.wav");
             playAudioSettings(play, turboAlarmImage, player);
         }
 
@@ -61,69 +61,50 @@ namespace Personal_Calendar
         {
             if (image.Source.ToString() == play.ToString())
             {
-                image.Source = new BitmapImage(new Uri(@"C:\Users\bbylsma\source\repos\Personal Calendar\stopButton.png"));
+                plainAlarmImage.Source = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\playButton.png"));
+                groovyAlarmImage.Source = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\playButton.png"));
+                relaxingAlarmImage.Source = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\playButton.png"));
+                softAlarmImage.Source = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\playButton.png"));
+                turboAlarmImage.Source = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\playButton.png"));
+
+                image.Source = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\stopButton.png"));
                 audio.PlayLooping();
             }
             else
             {
-                image.Source = new BitmapImage(new Uri(@"C:\Users\bbylsma\source\repos\Personal Calendar\playButton.png"));
+                image.Source = new BitmapImage(new Uri(@"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\playButton.png"));
                 audio.Stop();
             }
         }
 
         private void plainAlarmLabel_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {            
-            plainAlarmLabel.Content = "Current";
-            groovyAlarmLabel.Content = "Use";
-            softAlarmLabel.Content = "Use";
-            quietAlarmLabel.Content = "Use";
-            turboAlarmLabel.Content = "Use";
+        {
             Globals.currentAlarm = "plainAlarm";
-            Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\plainAlarm.wav";
+            AudioManager.setAudio(this);
         }
 
         private void groovyAlarmLabel_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            plainAlarmLabel.Content = "Use";
-            groovyAlarmLabel.Content = "Current";
-            softAlarmLabel.Content = "Use";
-            quietAlarmLabel.Content = "Use";
-            turboAlarmLabel.Content = "Use";
             Globals.currentAlarm = "groovyAlarm";
-            Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\groovyAlarm.wav";
+            AudioManager.setAudio(this);
         }
 
         private void quietAlarmLabel_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            plainAlarmLabel.Content = "Use";
-            groovyAlarmLabel.Content = "Use";
-            softAlarmLabel.Content = "Use";
-            quietAlarmLabel.Content = "Current";
-            turboAlarmLabel.Content = "Use";
             Globals.currentAlarm = "relaxingAlarm";
-            Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\relaxingAlarm.wav";
+            AudioManager.setAudio(this);
         }
 
         private void softAlarmLabel_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            plainAlarmLabel.Content = "Use";
-            groovyAlarmLabel.Content = "Use";
-            softAlarmLabel.Content = "Current";
-            quietAlarmLabel.Content = "Use";
-            turboAlarmLabel.Content = "Use";
             Globals.currentAlarm = "softAlarm";
-            Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\softAlarm.wav";
+            AudioManager.setAudio(this);
         }
 
         private void turboAlarmLabel_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            plainAlarmLabel.Content = "Use";
-            groovyAlarmLabel.Content = "Use";
-            softAlarmLabel.Content = "Use";
-            quietAlarmLabel.Content = "Use";
-            turboAlarmLabel.Content = "Current";
             Globals.currentAlarm = "turboAlarm";
-            Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\turboAlarm.wav";
+            AudioManager.setAudio(this);
         }
 
         private void Window_Closed(object sender, EventArgs e)
@@ -134,49 +115,7 @@ namespace Personal_Calendar
 
         private void Window_Activated(object sender, EventArgs e)
         {
-            switch (Globals.currentAlarm)
-            {
-                case "plainAlarm":
-                    plainAlarmLabel.Content = "Current";
-                    groovyAlarmLabel.Content = "Use";
-                    softAlarmLabel.Content = "Use";
-                    quietAlarmLabel.Content = "Use";
-                    turboAlarmLabel.Content = "Use";
-                    Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\plainAlarm.wav";
-                    break;
-                case "groovyAlarm":
-                    plainAlarmLabel.Content = "Use";
-                    groovyAlarmLabel.Content = "Current";
-                    softAlarmLabel.Content = "Use";
-                    quietAlarmLabel.Content = "Use";
-                    turboAlarmLabel.Content = "Use";
-                    Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\groovyAlarm.wav";
-                    break;
-                case "softAlarm":
-                    plainAlarmLabel.Content = "Use";
-                    groovyAlarmLabel.Content = "Use";
-                    softAlarmLabel.Content = "Current";
-                    quietAlarmLabel.Content = "Use";
-                    turboAlarmLabel.Content = "Use";
-                    Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\\softAlarm.wav";
-                    break;
-                case "relaxingAlarm":
-                    plainAlarmLabel.Content = "Use";
-                    groovyAlarmLabel.Content = "Use";
-                    softAlarmLabel.Content = "Use";
-                    quietAlarmLabel.Content = "Current";
-                    turboAlarmLabel.Content = "Use";
-                    Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\relaxingAlarm.wav";
-                    break;
-                case "turboAlarm":
-                    plainAlarmLabel.Content = "Use";
-                    groovyAlarmLabel.Content = "Use";
-                    softAlarmLabel.Content = "Use";
-                    quietAlarmLabel.Content = "Use";
-                    turboAlarmLabel.Content = "Current";
-                    Globals.alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\turboAlarm.wav";
-                    break;
-            }
+            AudioManager.setAudio(this);
         }
     }
 }

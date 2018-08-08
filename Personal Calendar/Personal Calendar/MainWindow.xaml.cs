@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,10 +30,10 @@ namespace Personal_Calendar
         public static int minutes;
         public static int seconds;
         public static int sHours;
-        public static int sMinutes;
-        public static int sSeconds;
-        public static int sMSeconds;
-        public static string alarmAudio = @"C:\Users\bbylsma\source\repos\Personal Calendar\PlainAlarm.wav";
+        public static string alarmAudio = @"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\PlainAlarm.wav";
+        public static string eventAlarmAudio = @"C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\PlainAlarm.wav";
+        public static DateTime eventDate;
+        public static ObservableCollection<Events> savedEvents = new ObservableCollection<Events>();
     }
 
     public partial class MainWindow : NavigationWindow

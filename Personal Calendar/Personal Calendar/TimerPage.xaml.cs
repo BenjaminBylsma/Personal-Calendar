@@ -59,12 +59,12 @@ namespace Personal_Calendar
                 Globals.hours = Convert.ToInt32(hourTxt.Text);
                 Globals.minutes = Convert.ToInt32(minTxt.Text);
                 Globals.seconds = Convert.ToInt32(secTxt.Text);
+                timer.Start();
             }
             catch
             {
                 System.Windows.MessageBox.Show("Not a valid time entry.", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
             }            
-            timer.Start();
         }
 
         private void timerTimer(object sender, EventArgs e)
@@ -93,7 +93,6 @@ namespace Personal_Calendar
             if (Globals.seconds == 0 && Globals.minutes == 0 && Globals.hours == 0)
             {
                 timer.Stop();
-                //MessageBox.Show("Time's up!");
                 SoundPlayer player = new SoundPlayer(Globals.alarmAudio);
 
                 NotifyIcon icon = new NotifyIcon();

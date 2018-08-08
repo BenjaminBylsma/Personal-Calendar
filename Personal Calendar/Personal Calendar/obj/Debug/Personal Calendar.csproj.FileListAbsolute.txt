@@ -23,3 +23,30 @@ C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\Cloc
 C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\StopwatchPage.baml
 C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\TimerSettingsWindow.g.cs
 C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\TimerSettingsWindow.baml
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\Personal Calendar.exe.config
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\Personal Calendar.exe
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\bin\Debug\Personal Calendar.pdb
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.csprojResolveAssemblyReference.cache
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\MainWindow.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\DateAndEventsPage.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\StopwatchPage.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\TimerPage.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\ClockPage.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\TimerSettingsWindow.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\App.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar_MarkupCompile.cache
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar_MarkupCompile.lref
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\MainWindow.baml
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\DateAndEventsPage.baml
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\StopwatchPage.baml
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\TimerPage.baml
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\ClockPage.baml
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\TimerSettingsWindow.baml
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.g.resources
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal_Calendar.Properties.Resources.resources
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.csproj.GenerateResource.Cache
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.csproj.CoreCompileInputs.cache
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.exe
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\Personal Calendar.pdb
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\EventSetterWindow.g.cs
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\EventSetterWindow.baml

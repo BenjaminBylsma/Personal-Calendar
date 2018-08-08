@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\obj\Debug\
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\obj\Debug\
 Personal_Calendar
 none
 false
 DEBUG;TRACE
-C:\Users\bbylsma\source\repos\Personal Calendar\Personal Calendar\App.xaml
-61937078627
+C:\Benjamin's\Benjamin's Kalos-Personal Calendar\Personal-Calendar-master\Personal Calendar\Personal Calendar\App.xaml
+71474155569
 
-141528326878
+18-251621653
 151984215308
-MainWindow.xaml;DateAndEventsPage.xaml;StopwatchPage.xaml;TimerPage.xaml;ClockPage.xaml;TimerSettingsWindow.xaml;
+EventSetterWindow.xaml;MainWindow.xaml;DateAndEventsPage.xaml;StopwatchPage.xaml;TimerPage.xaml;ClockPage.xaml;TimerSettingsWindow.xaml;
 
 True
 
